@@ -16,6 +16,7 @@ module Oxymoron
       else
         super || form_authenticity_token == request.headers['X-XSRF-TOKEN']
       end
+       //this is test comment
     end
   end
 end
